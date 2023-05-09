@@ -6,5 +6,5 @@ urlpatterns = [
 
         # 'livefe' -> function from views
         # 'live_camera' -> name at index.html>img src="{% url 'live_camera' %}
-        path('/camera', livefe, name="live_camera"),
+        path('camera', livefe, name="live_camera"),
     ]
